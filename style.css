@@ -6,11 +6,14 @@
 }
 .img {
    width: 700px;
-
+   
 }
 .borde-fino-verde {
     border-color: rgb(218, 55, 6);
     border-width: 5px;
     border-style: solid;
-    border-radius: 5%;
+    border-radius: 50%;
+}
+.fondo-color-silver{
+    background-color: rgb(161, 157, 157);
 }
