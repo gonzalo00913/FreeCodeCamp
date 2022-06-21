@@ -7,9 +7,23 @@
 
 .titulo {
     text-align: center;
+    text-transform: none;
+    font-weight: 800;
+
     font-size: 55px;
     font-family: lobster;
     color: rgb(218, 55, 6);
+    box-shadow: 0em;
+}
+
+.title-28{
+    font-size: 28px;
+}
+
+.text-18{
+    font-size: 18px;
+    position: relative;
+    bottom: 20px;
 }
 .img {
    width: 700px;
@@ -39,8 +53,22 @@
     padding-left:20px;
     margin: 30px 10px 10px 30px;
     
+    text-align: justify;
+    padding: 20px;
+    margin: 30px;
+    
 }
 
 #form-cat{
     background-color: rgb(161, 157, 157);
+    
+    padding: 20px;
+    margin: 30px;
+    width: 300px;
+}
+body{
+    
+}
+a:hover{
+    color: rgb(255, 0, 0);
 }
