@@ -5,11 +5,15 @@
 /*CSS te permite controlar por separado el padding de los cuatro lados individuales de un elemento por medio de las propiedades
  padding-top, padding-right, padding-bottom y padding-left*/
 
+body{
+    :linear-gradient(360deg,rgb(155, 28, 28),rgb(150, 29, 29),rgb(30, 30, 73),blue);
+}
+
 .titulo {
     text-align: center;
     text-transform: none;
     font-weight: 800;
-
+    background-color: hsl(50, 100%, 70% );
     font-size: 55px;
     font-family: lobster;
     color: rgb(218, 55, 6);
@@ -29,7 +33,7 @@
 .img {
    width: 700px;
    padding: auto;
-   margin: auto;
+   margin:auto;
 }
 .dog-borde-color{
     width: 800px;
@@ -50,7 +54,7 @@
 }
 
 .fondo-color-silver{
-    background-color: rgb(161, 157, 157);
+    background-color: hsl(50, 100%, 70% );
     padding-left:20px;
     margin: 30px 10px 10px 30px;
     
@@ -62,18 +66,20 @@
 }
 
 #form-cat{
-    background-color: rgb(161, 157, 157);
+    background-color: hsl(50, 100%, 70% );
     
     padding: 20px;
     margin: 30px;
     width: 300px;
 }
-body{
-    
-}
+
+
 a:hover{
     color: rgb(255, 0, 0);
+    transform: (2.0);
 }
+
 #navbar{
- position:
+color: yellow;
+ 
 }
