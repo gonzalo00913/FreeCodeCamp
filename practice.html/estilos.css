@@ -37,7 +37,7 @@ div{
     }
     100%{
         background-color: rgb(0, 255, 0);
-        left: ;
+        
     }
 }
 body{
@@ -93,4 +93,9 @@ button:hover{
     100% {
       top: 0px;
     }
+  }
+  @media(max-height:800px){
+      p{
+        font-size: 100px;
+      }
   }

@@ -6,7 +6,7 @@
  padding-top, padding-right, padding-bottom y padding-left*/
 
 body{
-    :linear-gradient(360deg,rgb(155, 28, 28),rgb(150, 29, 29),rgb(30, 30, 73),blue);
+    background-color: beige;
 }
 
 .titulo {
@@ -31,11 +31,11 @@ body{
     left: 10px;
 }
 .img {
-   width: 700px;
-   padding: auto;
-   margin:auto;
+    max-width: 100%;
+    height: auto;
 }
-.dog-borde-color{
+.dog-borde-color,
+.img{
     width: 800px;
     border-color: rgb(218, 55, 6);
     border-width: 5px;
@@ -82,4 +82,21 @@ a:hover{
 #navbar{
 color: yellow;
  
+}
+#boton{
+    border-radius: 5px;
+    color: white;
+    background-color: #0F5897;
+    padding: 5px 10px 8px 10px;
+}
+
+button:hover{
+    animation-name:boton;
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+}
+@keyframes boton{
+    100%{
+        background-color:#4791d0;
+    }
 }
