@@ -6,7 +6,7 @@
  padding-top, padding-right, padding-bottom y padding-left*/
 
 body{
-    background-color: beige;
+    background-color: rgb(216, 216, 167);
 }
 
 .titulo {
@@ -33,6 +33,8 @@ body{
 .img {
     max-width: 100%;
     height: auto;
+    display: flex;
+    
 }
 .dog-borde-color,
 .img{
